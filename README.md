@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+![image](https://github.com/shivam4226/multi-Step-form-With-react-mui-anf-formik-yup-validation/assets/91675351/986044a4-7048-4b41-96d2-725287a67eba)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
