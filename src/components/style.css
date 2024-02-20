@@ -1,0 +1,23 @@
+.circle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.active{
+  background-color: yellow;
+}
+
