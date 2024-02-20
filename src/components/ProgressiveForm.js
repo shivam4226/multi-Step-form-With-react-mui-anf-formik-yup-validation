@@ -56,14 +56,14 @@ const MultiStepForm = () => {
 
   return (
     <Provider value={{ details, setDetails, next, prev, address, setAddress, activeStep }}>
-     <Card sx={{ display: 'flex', justifyContent: 'space-between', position: 'relative' }}>
+      <Card sx={{ display: 'flex', justifyContent: 'space-between', position: 'relative' }}>
         <Grid container>
           <Grid item xs={12} md={6}>
             <CardContent>
               <Typography variant="h5" component="h2" gutterBottom>
                 Form Section
               </Typography>
-      <main>{renderStep(activeStep)}</main>
+              <main>{renderStep(activeStep)}</main>
             </CardContent>
           </Grid>
           <Grid item xs={12} md={6} sx={{ display: { xs: 'none', md: 'block' } }}>

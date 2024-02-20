@@ -7,13 +7,21 @@ import "./style.css";
 
 const Steprer = () => {
   const { activeStep } = useContext(MultiStepFormContext);
-  console.log("active----", activeStep);
-
-
 
   return (
-    <div>
-      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', position: 'absolute', top: '40%', right: '20px', transform: 'translateY(-100%)', }}>
+    <div className="steprer-container">
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          position: 'absolute',
+          top: '40%',
+          right: '20px',
+          transform: 'translateY(-100%)',
+        }}
+        className="steprer-box"
+      >
         <div className={`circle ${activeStep > 0 ? 'active' : ''}`}>
           <IconButton>
             <MdPerson />
